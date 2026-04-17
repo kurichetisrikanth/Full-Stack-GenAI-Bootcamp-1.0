@@ -1,0 +1,4 @@
+Method,What it stores,Captures frequency?,Captures importance?,Typical use,Main limitation
+One Hot Encoding,Only presence/absence of words,No,No,Very simple baseline or categorical word presence,Ignores frequency and semantic meaning
+Bag of Words,Word counts in each document,Yes,Partly,Baseline text classification and classical ML,Ignores context and synonym meaning
+TF-IDF,Weighted word importance,Yes,Yes,"Search, ranking, document similarity, classification",Still ignores deep semantics and word order
